@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: cyan;
+}
+header{
+    background: brown;
+    display: flex;
+}
+
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 8%;
+    cursor: pointer;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+}
+.nav ul:hover{
+    text-decoration: underline;
+}
+h3{
+    text-shadow: 0 0 3px black;
+}
+button{
+    border-radius: 3px;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
